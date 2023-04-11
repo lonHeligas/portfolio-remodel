@@ -8,6 +8,7 @@ function App() {
   return (
     <Wrapper>
       <HashRouter basename="/" hashType="slash">
+         <Header />         
         <Routes>
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<IntroPage />} />
         </Routes>
       </HashRouter>
+      <Footer />
     </Wrapper>
   );
 }
