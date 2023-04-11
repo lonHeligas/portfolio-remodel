@@ -1,6 +1,6 @@
 import * as React from "react";
-import "../styles/footer.css";
-import Button from "react-bootstrap/Button";
+// import "../styles/footer.css";
+// import Button from "react-bootstrap/Button";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ReorderIcon from '@mui/icons-material/Reorder';
